@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(shiny)\n\n# Define UI for application that draws a histogram\nshinyUI(fluidPage(\n  \n  # Application title\n  titlePanel(\"Hello Shiny!\"),\n  \n  # Sidebar with a slider input for the number of bins\n  sidebarLayout(\n    sidebarPanel(\n      sliderInput(\"bins\",\n                  \"Number of bins:\",\n                  min = 1,\n                  max = 50,\n                  value = 30)\n    ),\n    \n    # Show a plot of the generated distribution\n    mainPanel(\n      plotOutput(\"distPlot\")\n    )\n  )\n))\n\n",
+    "created" : 1470643454883.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2029721938",
+    "id" : "2FAF0146",
+    "lastKnownWriteTime" : 1470644129,
+    "last_content_update" : 1470644129397,
+    "path" : "C:/Users/user/Desktop/R/test_R/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "relative_order" : 0,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
